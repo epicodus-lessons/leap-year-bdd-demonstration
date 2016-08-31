@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="LeapYearTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-08-31T23:25:31" hostname="staff-5.local" time="0.001">
+<testsuite name="LeapYearTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-08-31T23:36:57" hostname="staff-5.local" time="0.002">
   <properties/>
-  <testcase name="isLeapYear_forNumberDivisibleByFour_true" classname="LeapYearTest" time="0.001"/>
+  <testcase name="isLeapYear_forNumberDivisibleByFour_true" classname="LeapYearTest" time="0.002"/>
+  <testcase name="isLeapYear_forNumbersNotDivisibleByFour_false" classname="LeapYearTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
