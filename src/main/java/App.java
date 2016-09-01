@@ -6,5 +6,7 @@ public class App {
     System.out.println("Enter a year, we'll tell you if it's a leap year:")
     String stringYear = myConsole.readLine();
     int intYear = Integer.parseInt(stringYear);
+    boolean leapYearResult = isLeapYear(intYear);
+    System.out.println("Is that year a leap year?" + leapYearResult);
   }
 }
